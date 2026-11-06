@@ -1,0 +1,114 @@
+/* 1. Celá stránka */
+body{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+
+    background-color: rgb(255 0 0 / 0.89);
+    color: #9c1919;
+
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Nadpisy */
+h1{
+    color: #ffffff;
+    font-size: 52px;
+    text-align: center;
+}
+
+h2{
+    color: #ff0000;
+    border-bottom: 2px solid #0a1e8e;
+}
+
+/* 3. Navigace a odkazy */
+nav{
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #8c0000;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+
+    color: rgb(255 0 0 / 0.89);
+    background-color: #fafafa;
+
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+nav a:hover{
+    background-color: #ececec;
+}
+
+/* 4. Hlavní obsah a jednotlivé sekce */
+main{
+    margin-top: 24px;
+}
+section{
+    background-color: #fffbfb;
+    padding: 28px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+/* 5. Obrázky a jejich popisky */
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    border-radius: 16px;
+}
+
+figure{
+    margin: 0;
+    padding: 15px;
+    background-color: #f9eaea;
+    border-radius: 12px;
+}
+figcaption{
+    margin-top: 8px;
+    color: #c30d0d;
+    text-align: center;
+}
+
+/* 6. Tabulka */
+table{
+    width:100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+caption{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+th,
+td{
+    padding: 16px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+th{
+    color: white;
+    background-color: rgb(216 0 0 / 0.89);
+}
+
+
+/* 7. Zápatí */
+footer{
+    margin-top: 30px;
+    padding: 10px;
+
+    color: #707070;
+    background-color: #000000;
+    text-align: center;
+}
